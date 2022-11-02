@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Cpp from '../assets/c++.png'
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
@@ -18,6 +19,10 @@ const Skills = () => {
           </div>
 
           <div className='w-full mr-[10px] grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Cpp} alt="HTML icon" />
+                  <p className='my-4'>C++</p>
+              </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
                   <p className='my-4'>HTML</p>
