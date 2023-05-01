@@ -1,8 +1,10 @@
 "use client";
-import RootLayout from './layout'  
-import { useEffect } from 'react';
+import { useEffect, useState } from "react";
+import "./styles/globals.css";
+import "./styles/themes.css";
+import Head from "./components/Head";
 
-export default function Home({ Component, pageProps }) {
+export default function Home({ props, Component }) {
 
   useEffect(() => {
     if (localStorage.getItem("theme")) {
@@ -14,10 +16,9 @@ export default function Home({ Component, pageProps }) {
   }, []);
 
   return (
-    <main className=''>
-      <RootLayout>
-        <Component {...pageProps} />
-      </RootLayout>
-    </main>
+    <>
+      <Head title={`Kostas Georgiou | ${props.title}`} /> 
+      <Component />
+    </>
   )
 }

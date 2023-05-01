@@ -1,4 +1,3 @@
-
 const AboutPage = () => {
   return (
     <>
@@ -14,5 +13,11 @@ const AboutPage = () => {
   );
 };
 
+export async function getInitialProps() {
+  return {
+    props: { title: 'About' },
+    AboutPage
+  };
+}
 
-export default AboutPage;
+export default  AboutPage
