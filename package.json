@@ -1,18 +1,21 @@
 {
-  "name": "portfolio",
+  "name": "vscode-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && next export",
+    "start": "next start"
   },
   "dependencies": {
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.2",
-    "next": "13.3.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@notionhq/client": "^0.2.2",
+    "@vercel/analytics": "^0.1.3",
+    "gh-pages": "^4.0.0",
+    "next": "^12.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-github-calendar": "^3.2.2",
+    "react-pdf": "^5.7.2"
   }
 }

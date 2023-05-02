@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Password Manager",
+    "image": "https://i.imgur.com/ASzlhVm.png",
+    "description": "This project allows users to store their website name and password in encrypted form, and they can view the decrypted password when needed.",
+    "tags": ["React", "Nodejs", "Express", "MongoDB"],
+    "source_code": "https://github.com/abhijeetnishal/PasswordManager",
+    "demo":"https://mypasswordmanager.vercel.app/"
+  },
+  {
+    "id": 2,
+    "name": "URL Shortener App",
+    "image": "https://i.imgur.com/fB1ZTdI.jpeg",
+    "description": "A URL shortener app that transforms long URLs into shorter, more manageable, making them easier to share on social media or other digital channels.",
+    "tags": ["React", "Nodejs", "Express", "MongoDB"],
+    "source_code": "https://github.com/abhijeetnishal/URLShortener",
+    "demo":"https://urlsrtner.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "Vacation MailBot",
+    "image": "https://i.imgur.com/oryplTs.jpg",
+    "description": "A vacation mail bot that helps you automate email responses while you're on vacation, allowing you to enjoy your time off without worrying about your inbox.",
+    "tags": ["Nodejs", "Express", "Google-API"],
+    "source_code": "https://github.com/abhijeetnishal/VacationMailBot-App"
+  },
+  {
+    "id": 4,
+    "name": "Backend REST-API",
+    "image": "https://i.imgur.com/LKt6Dbf.png",
+    "description": "A backend REST API for a web application that enables communication between the client-side and server-side, allowing for efficient data transfer.",
+    "tags": ["Nodejs", "Express", "MongoDB", "REST-API"],
+    "source_code": "https://github.com/abhijeetnishal/Backend-Rest-API"
+  }
+]
