@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import GitHubCalendar from 'react-github-calendar';
-import RepoCard from '../components/RepoCard';
 import styles from '../styles/GithubPage.module.css';
 
 const GithubPage = ({ repos, user }) => {
@@ -55,7 +54,7 @@ const GithubPage = ({ repos, user }) => {
       </center>
       <br/>
       <center>
-        <img width={'400px'} src="https://github-readme-stats.vercel.app/api/top-langs?username=abhijeetnishal&show_icons=true&locale=en&layout=compact" alt="abhijeetnishal" />
+        <img className={styles.langImg} width={'400px'} src="https://github-readme-stats.vercel.app/api/top-langs?username=abhijeetnishal&show_icons=true&locale=en&layout=compact" alt="abhijeetnishal" />
       </center>
       {/* <center>
         <p><img src="https://github-readme-stats.vercel.app/api?username=abhijeetnishal&show_icons=true&locale=en" alt="abhijeetnishal" /></p>
