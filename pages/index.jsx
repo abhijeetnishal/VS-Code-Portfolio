@@ -26,20 +26,35 @@ export default function HomePage() {
                     <span key='Javascript' className='Javascript'>
                       JavaScript
                     </span>
+                    <span key='REST-API' className='REST-API'>
+                      TypeScript
+                    </span>
                     <span key='Nodejs' className='Nodejs'>
-                      Nodejs
+                      Node.js
                     </span>
                     <span key='Express' className='Express'>
-                      Express
+                      Express.js
                     </span>
                     <span key='React' className='React'>
-                      React
+                      React.js
+                    </span>
+                    <span key='Nodejs' className='Nodejs'>
+                      Next.js
                     </span>
                     <span key='REST-API' className='REST-API'>
                       REST API
                     </span>
                     <span key='MongoDB' className='MongoDB'>
                       MongoDB
+                    </span>
+                    <span key='REST-API' className='REST-API'>
+                      PostgreSQL
+                    </span>
+                    <span key='Cpp' className='Cpp'>
+                      Redis
+                    </span>
+                    <span key='Express' className='Express'>
+                      AWS
                     </span>
                   </div>
                 </div>
