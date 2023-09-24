@@ -3,3 +3,13 @@
     justify-content: flex-start;
     width: 100%;
 }
+
+@media screen and (max-width:400px) {
+    .about{
+        display: flex;
+        justify-content: flex-start;
+        text-align:start;
+        font-size: 18px;
+        width: 100%;
+    }
+}
