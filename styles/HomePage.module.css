@@ -243,6 +243,7 @@
 
 /* Phone */
 @media screen and (max-width: 600px) {
+
   .foreground {
     margin: 0;
   }
