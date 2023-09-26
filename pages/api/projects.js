@@ -1,10 +1,16 @@
-import data from './projects.json';
+import backendProjectsData from './backendProjects.json';
+import fullStackProjectsData from './fullStackProject.json';
 
-export const getProjects = () => {
-  return data;
+export const getFullStackProjects = () => {
+  return fullStackProjectsData;
 };
 
+export const getBackendProjects = () =>{
+  return backendProjectsData;
+}
+
 export default (req, res) => {
-  const projects = getProjects();
-  res.json(projects);
+  const backendProjects = getBackendProjects();
+  const fullStackProjects = getFullStackProjects();
+  res.json({backendProjects, fullStackProjects});
 };
