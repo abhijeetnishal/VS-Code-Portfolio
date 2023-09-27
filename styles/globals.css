@@ -12,6 +12,12 @@
 }
 
 /* Tags */
+.TypeScript {
+  border: 0.1rem solid rgb(18, 7, 235);
+}
+.TypeScript:hover {
+  background: rgba(63, 99, 228, 0.25);
+}
 .React {
   border: 0.1rem solid rgb(238, 89, 3);
 }
@@ -19,10 +25,16 @@
   background: rgba(238, 89, 3, 0.25);
 }
 .Nodejs {
-  border: 0.1rem solid rgb(50, 85, 213);
+  border: 0.1rem solid rgb(102, 243, 42);
 }
 .Nodejs:hover {
-  background: rgba(50, 85, 213, 0.25);
+  background: rgba(133, 231, 188, 0.25);
+}
+.Redis {
+  border: 0.1rem solid rgb(243, 58, 16);
+}
+.Redis:hover {
+  background: rgba(245, 170, 136, 0.25);
 }
 .Express {
   border: 0.1rem solid rgb(180, 171, 171);
@@ -52,6 +64,12 @@
   border: 0.1rem solid rgb(255, 118, 214);
 }
 .SQL:hover {
+  background: rgba(255, 118, 214, 0.25);
+}
+.PostgreSQL {
+  border: 0.1rem solid rgb(255, 118, 214);
+}
+.PostgreSQL:hover {
   background: rgba(255, 118, 214, 0.25);
 }
 .Javascript{
